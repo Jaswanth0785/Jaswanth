@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .image {
+            width: 150px; /* Adjust as needed */
+        }
+        .text {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image1.jpg" alt="Image 1" class="image">
+        <p class="text">This content appears beside the first image.</p>
+    </div>
+    <div class="container">
+        <img src="image2.jpg" alt="Image 2" class="image">
+        <p class="text">This content appears beside the second image.</p>
+    </div>
+</body>
+</html>
